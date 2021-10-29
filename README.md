@@ -1,2 +1,2 @@
-# interview_questions
-Contains some famous interview questions
+# Interview Questions
+Contains some famous Interview Questions
