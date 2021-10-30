@@ -1,4 +1,6 @@
-
+# Time complexity -O(n) n being max of length of 2 nodes
+# Input : 2 sorted arrays 
+# Output : sorted array
 
 def merge(nums1, m: int, nums2, n: int) -> None:
     pointer1 = m - 1
