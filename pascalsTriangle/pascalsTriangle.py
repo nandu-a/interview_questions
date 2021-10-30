@@ -1,4 +1,6 @@
-
+# Input - integer
+# Output - array
+# Time complexity O(n^2) and space complexity O(n)
 
 def generate(numRows: int):
     answer = [[1]]
@@ -9,8 +11,7 @@ def generate(numRows: int):
         
         for j in range(0, len(lastRow) - 1):
             newRow.append(lastRow[j] + lastRow[j+1])
-            
-        answer.append(newRow)
+        answer.append(newRow) 
         
     return answer
 
