@@ -1,5 +1,10 @@
+main
+# Input - integer
+# Output - array
+
 
 #function
+main
 def generate(numRows: int):
     answer = [[1]]
         
@@ -9,8 +14,7 @@ def generate(numRows: int):
         
         for j in range(0, len(lastRow) - 1):
             newRow.append(lastRow[j] + lastRow[j+1])
-            
-        answer.append(newRow)
+        answer.append(newRow) 
         
     return answer
 
