@@ -1,5 +1,5 @@
-
-
+# Time complexity - O(n)
+# Space complexity - O(1)
 def missingNumber(nums) -> int:
     length = len(nums)
         
