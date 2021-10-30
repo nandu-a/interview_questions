@@ -1,3 +1,7 @@
+# Time complexity O(n) and space complexity O(n)
+# Input - integer
+# Output - array
+
 n = int(input());
 
 def fizzBuzz(n):
@@ -12,3 +16,6 @@ def fizzBuzz(n):
     else:
       arr.append(str(i))
   return arr
+
+print(fizzBuzz(n))
+
