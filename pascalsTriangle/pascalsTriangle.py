@@ -1,10 +1,8 @@
-main
+
 # Input - integer
 # Output - array
-
-
-#function
-main
+# Time complexity - O(n^2)
+# Space complexity - O(n)
 def generate(numRows: int):
     answer = [[1]]
         
