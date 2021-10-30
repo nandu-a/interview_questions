@@ -1,5 +1,5 @@
 
-
+#function
 def generate(numRows: int):
     answer = [[1]]
         
