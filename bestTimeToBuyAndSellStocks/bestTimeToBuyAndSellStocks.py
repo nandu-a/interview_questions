@@ -1,3 +1,6 @@
+# Time Complexity - O(n)
+# Space Complexity - O(1)
+
 import math
 
 def maxProfit(prices) -> int:
@@ -7,11 +10,11 @@ def maxProfit(prices) -> int:
         
     for price in prices:
         if price < minimum:
-            minimum = price
+            minimum = price  # minimum value is updated when the value is lesser than price
         elif price - minimum > profit:
             profit = price - minimum
         
-    return profit
+    return profit  # integer is returned
 
 print(maxProfit([7,1,5,3,6,4]))
 
