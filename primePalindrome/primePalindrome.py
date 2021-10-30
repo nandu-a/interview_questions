@@ -1,3 +1,5 @@
+# time complexity - O(n)
+# space complexity -O(1)
 def primePalindrome(n):
     """
     Find the smallest prime palindrome greater than n.
